@@ -31,7 +31,7 @@ public class Exceptions {
             System.out.println("Result = " + result);
         }catch(ArithmeticException e)
         {
-            System.out.println("Something is wrong");
+            System.out.println("You cannot divide by zero");
         }              
     }
     
