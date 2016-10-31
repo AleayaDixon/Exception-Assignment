@@ -32,7 +32,10 @@ public class Exceptions {
         }catch(ArithmeticException e)
         {
             System.out.println("You cannot divide by zero");
-        }              
+        }
+        finally {
+            System.out.println("finally block will execute.");
+        }
     }
     
 }
